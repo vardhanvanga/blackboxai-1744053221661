@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScamAlert - About Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .about-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+                              url('https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+        .team-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-blue-600 text-white shadow-lg">
+        <div class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="index.html" class="text-2xl font-bold">ScamAlert</a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="index.html" class="hover:text-blue-200">Home</a>
+                    <a href="merchant-login.html" class="hover:text-blue-200">Merchant Login</a>
+                    <a href="customer-login.html" class="hover:text-blue-200">Customer Login</a>
+                    <a href="#" class="font-bold hover:text-blue-200">About Us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="about-bg text-white py-20">
+        <div class="container mx-auto px-6 text-center">
+            <h1 class="text-4xl font-bold mb-6">Our Mission</h1>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">To educate and protect consumers and merchants from product return exchange scams through awareness and innovative solutions.</p>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12">Our Team</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Team Leader -->
+                <div class="team-card bg-gray-50 p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-4">
+                        <div class="w-24 h-24 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-3xl">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">S. Saiteja</h3>
+                    <p class="text-blue-600 font-medium text-center mb-4">Team Leader</p>
+                    <p class="text-gray-600 text-center">Vardhaman College of Engineering</p>
+                </div>
+
+                <!-- Frontend Developer -->
+                <div class="team-card bg-gray-50 p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-4">
+                        <div class="w-24 h-24 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-3xl">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">V. Vardhan</h3>
+                    <p class="text-blue-600 font-medium text-center mb-4">Frontend Developer</p>
+                    <p class="text-gray-600 text-center">Vardhaman College of Engineering</p>
+                </div>
+
+                <!-- Research and Marketing -->
+                <div class="team-card bg-gray-50 p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-4">
+                        <div class="w-24 h-24 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-3xl">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">B. Lokesh</h3>
+                    <p class="text-blue-600 font-medium text-center mb-4">Research and Marketing</p>
+                    <p class="text-gray-600 text-center">Vardhaman College of Engineering</p>
+                </div>
+
+                <!-- Research and Marketing -->
+                <div class="team-card bg-gray-50 p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-4">
+                        <div class="w-24 h-24 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-3xl">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">R. Pavani</h3>
+                    <p class="text-blue-600 font-medium text-center mb-4">Research and Marketing</p>
+                    <p class="text-gray-600 text-center">Vardhaman College of Engineering</p>
+                </div>
+
+                <!-- Research and Development -->
+                <div class="team-card bg-gray-50 p-6 rounded-lg shadow-md transition duration-300">
+                    <div class="text-center mb-4">
+                        <div class="w-24 h-24 mx-auto bg-blue-100 rounded-full flex items-center justify-center text-blue-600 text-3xl">
+                            <i class="fas fa-flask"></i>
+                        </div>
+                    </div>
+                    <h3 class="text-xl font-semibold text-center mb-2">B. Sushmitha</h3>
+                    <p class="text-blue-600 font-medium text-center mb-4">Research and Development</p>
+                    <p class="text-gray-600 text-center">Vardhaman College of Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- College Section -->
+    <section class="py-16 bg-blue-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Vardhaman College of Engineering</h2>
+            <div class="max-w-2xl mx-auto">
+                <p class="text-lg mb-6">Our team is proud to represent Vardhaman College of Engineering in this initiative to combat online scams.</p>
+                <a href="https://vardhaman.org" target="_blank" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                    Visit College Website
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl">
+            <h2 class="text-3xl font-bold text-center mb-8">Contact Us</h2>
+            <form class="grid md:grid-cols-2 gap-6">
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2" for="name">Name</label>
+                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                           type="text" id="name" required>
+                </div>
+                <div>
+                    <label class="block text-gray-700 font-medium mb-2" for="email">Email</label>
+                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                           type="email" id="email" required>
+                </div>
+                <div class="md:col-span-2">
+                    <label class="block text-gray-700 font-medium mb-2" for="subject">Subject</label>
+                    <input class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                           type="text" id="subject" required>
+                </div>
+                <div class="md:col-span-2">
+                    <label class="block text-gray-700 font-medium mb-2" for="message">Message</label>
+                    <textarea class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" 
+                              id="message" rows="4" required></textarea>
+                </div>
+                <div class="md:col-span-2 text-center">
+                    <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300" 
+                            type="submit">
+                        Send Message
+                    </button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">ScamAlert</h3>
+                    <p>Protecting consumers and merchants since 2023</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-blue-300"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-blue-300"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="hover:text-blue-300"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-6 pt-6 text-center">
+                <p>&copy; 2023 ScamAlert. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
